@@ -31,9 +31,10 @@ twitter_username: lms_2023
 github_username:  lms2023
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+markdown: kramdown
+theme: minima
 plugins:
-- jekyll-remote-theme
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
